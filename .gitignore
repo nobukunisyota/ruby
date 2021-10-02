@@ -1,0 +1,3 @@
+# bundle関係のファイルは除外対象
+scripts/**/vendor/
+scripts/**/.bundle/
