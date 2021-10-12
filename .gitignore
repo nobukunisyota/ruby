@@ -1,3 +1,25 @@
-# bundle関係のファイルは除外対象
-scripts/**/vendor/
-scripts/**/.bundle/
+# Ignore bundler config.
+**/.bundle
+
+# Ignore all logfiles and tempfiles.
+**/log/
+**/tmp/
+
+# Ignore uploaded files in development.
+**/storage/*
+
+**/public/assets
+**/.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+**/config/master.key
+
+**/public/packs
+**/public/packs-test
+**/node_modules
+**/yarn-error.log
+**/yarn-debug.log*
+**/.yarn-integrity
+
+**/vendor/
+**/db/
