@@ -1,5 +1,5 @@
 def isTrue
-    return false
+    return true
 end
 
 require 'minitest/autorun'
