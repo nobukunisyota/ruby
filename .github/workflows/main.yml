@@ -18,4 +18,4 @@ jobs:
       with:
         ruby-version: 2.7.2
     - name: Check code
-      run: run_minitest.rb
+      run: ruby run_minitest.rb
