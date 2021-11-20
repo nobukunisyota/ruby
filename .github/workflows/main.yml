@@ -8,7 +8,7 @@ on:
 
 jobs:
   rubocop-test:
-    name: Rubocop
+    name: Minitest
     runs-on: ubuntu-latest
 
     steps:
